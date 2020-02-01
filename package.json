@@ -1,0 +1,27 @@
+{
+  "name": "@zwolf/log",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "description": "Log @zwolf/turbine messages to Google Cloud Firestore",
+  "repository": "https://github.com/stayradiated/zwolf-log",
+  "author": "George Czabania",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "pkg-build",
+    "test": "pkg-test",
+    "lint": "pkg-lint",
+    "tidy": "pkg-tidy"
+  },
+  "devDependencies": {
+    "@stayradiated/pkg": "4.1.0",
+    "@types/node": "13.7.0"
+  },
+  "dependencies": {
+    "@zwolf/firestore": "1.0.2",
+    "@zwolf/turbine": "3.5.0"
+  }
+}
