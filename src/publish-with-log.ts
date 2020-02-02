@@ -1,7 +1,7 @@
 import * as db from '@zwolf/firestore'
 import { PublishFn } from '@zwolf/turbine'
 
-import { LogCollection } from './db'
+import { LogCollection } from './firestore'
 
 const publishWithLog = (publishFn: PublishFn): PublishFn => {
   return async (message) => {

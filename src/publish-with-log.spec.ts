@@ -2,7 +2,7 @@ import test from 'ava'
 import { createMessage } from '@zwolf/turbine'
 import * as db from '@zwolf/firestore'
 
-import { LogCollection } from './db'
+import { LogCollection } from './firestore'
 
 import publishWithLog from './publish-with-log'
 

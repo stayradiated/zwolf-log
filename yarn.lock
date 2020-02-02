@@ -415,10 +415,10 @@
     firebase-admin "8.9.2"
     typesaurus "5.1.0"
 
-"@zwolf/turbine@3.5.0":
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/@zwolf/turbine/-/turbine-3.5.0.tgz#858e72b814eb4dc68a8a6317e0fb4324fbc5fc6c"
-  integrity sha512-ffm597yvK+4QAG/IPum6aoV2cazleyLwk5LVZEtth5hrZv3KIKqDLv65B/hEh4KpOQDmi1CgJLq5rtqCUG/VMw==
+"@zwolf/turbine@3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@zwolf/turbine/-/turbine-3.7.0.tgz#4bad31ea2301b02ebb2c71f5d0a31346ff2d5310"
+  integrity sha512-5wOvs6WeGsggnPmw/5Ld/zL35lsn3ElvT/A/sehMMVsVU8U6Xz/iKK1qfQiRMeNu8dvyV+GaOZlaXyDf7tE34Q==
   dependencies:
     ulid "2.3.0"
 

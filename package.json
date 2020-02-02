@@ -22,6 +22,6 @@
   },
   "dependencies": {
     "@zwolf/firestore": "1.0.2",
-    "@zwolf/turbine": "3.5.0"
+    "@zwolf/turbine": "3.7.0"
   }
 }

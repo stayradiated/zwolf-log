@@ -13,3 +13,5 @@ const log = (driver: Driver) => {
 }
 
 export default log
+
+export * from './firestore'

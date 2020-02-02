@@ -6,7 +6,7 @@ import {
   SubscriptionHandler,
 } from '@zwolf/turbine'
 
-import { LogCollection } from './db'
+import { LogCollection } from './firestore'
 
 const subscribeWithLog = (subscribeFn: SubscribeFn): SubscribeFn => {
   return async (options) => {
