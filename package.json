@@ -1,6 +1,6 @@
 {
   "name": "@zwolf/log",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "description": "Log @zwolf/turbine messages to Google Cloud Firestore",
