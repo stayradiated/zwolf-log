@@ -32,8 +32,8 @@ test('should append received date', (t) => {
     const log = await db.get(LogCollection, message.id)
 
     t.truthy(log.data.received['test_test'])
-    t.is(log.data.received['test_test'].length, 1)
-    t.true(log.data.received['test_test'][0] instanceof Date)
+    t.is(log.data.received['test_test'].count, 1)
+    t.true(log.data.received['test_test'].lastReceivedAt instanceof Date)
   })({
     serviceName: 'test.test',
     subscriptionHandlers: [

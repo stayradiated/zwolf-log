@@ -30,10 +30,8 @@ const subscribeWithLog = (subscribeFn: SubscribeFn): SubscribeFn => {
 
           await db.update(LogCollection, id, [
             db.field('updatedAt', db.value('serverDate')),
-            db.field(
-              ['received', escapedServiceName],
-              db.value('arrayUnion', [db.value('serverDate')]),
-            ),
+            db.field(['received', escapedServiceName, 'lastReceivedAt'], db.value('serverDate')),
+            db.field(['received', escapedServiceName, 'count'], db.value('increment', 1)),
           ])
         }
 

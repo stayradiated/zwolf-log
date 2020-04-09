@@ -4,7 +4,7 @@ export interface Log {
   createdAt: Date,
   parentId: Ref<Log>,
   payload: string,
-  received: { [index: string]: Date[] },
+  received: { [index: string]: { lastReceivedAt: Date, count: number } },
   sentAt: Date,
   sentFrom: string,
   type: string,
