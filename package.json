@@ -17,11 +17,11 @@
     "tidy": "pkg-tidy"
   },
   "devDependencies": {
-    "@stayradiated/pkg": "^4.1.0",
-    "@types/node": "^13.7.0"
+    "@stayradiated/pkg": "^4.4.0",
+    "@types/node": "^13.11.1"
   },
   "dependencies": {
-    "@zwolf/firestore": "^1.0.2",
-    "@zwolf/turbine": "^3.7.0"
+    "@zwolf/firestore": "^1.1.0",
+    "@zwolf/turbine": "^4.0.0"
   }
 }
